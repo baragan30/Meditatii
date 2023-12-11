@@ -38,7 +38,7 @@ void function4(){
     x = x + y;
     y = x - y;   
     x = x - y;  
-    cout << x << " " << y;// 2 1
+    cout << x << " " << y;
 }
 
 void function5(){

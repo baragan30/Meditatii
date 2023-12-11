@@ -17,24 +17,23 @@ Structuri repetitive :
     - Generari, Sume, Produse:
         C1)https://www.pbinfo.ro/probleme/327/afisarenumere
         C2)https://www.pbinfo.ro/probleme/1261/catepare
-        C21)https://www.pbinfo.ro/probleme/1360/suma-gauss
-        C22)https://www.pbinfo.ro/probleme/3976/prodimpare
-        C4)https://www.pbinfo.ro/probleme/4294/perechin
-        C41)https://www.pbinfo.ro/probleme/57/n-suma
-        C42)https://www.pbinfo.ro/probleme/46/sumapare
-        C5)https://www.pbinfo.ro/probleme/336/expresie4
-        C6)https://www.pbinfo.ro/probleme/255/fibonacci
-        C7)https://www.pbinfo.ro/probleme/423/fibonacci1
-        C8)https://www.pbinfo.ro/probleme/3166/vas1
-        C9)https://www.pbinfo.ro/probleme/3984/afisare-m2
-        C10)https://www.pbinfo.ro/probleme/348/afisareputeri
+        C3)https://www.pbinfo.ro/probleme/1360/suma-gauss
+        C4)https://www.pbinfo.ro/probleme/3976/prodimpare
+        C5)https://www.pbinfo.ro/probleme/4294/perechin
+        C6)https://www.pbinfo.ro/probleme/57/n-suma
+        C7)https://www.pbinfo.ro/probleme/46/sumapare
+        C8)https://www.pbinfo.ro/probleme/336/expresie4
+        C9)https://www.pbinfo.ro/probleme/348/afisareputeri
+        C10)https://www.pbinfo.ro/probleme/3984/afisare-m2
+        C12)https://www.pbinfo.ro/probleme/255/fibonacci
+        C13)https://www.pbinfo.ro/probleme/3166/vas1
 
     -Min-Max:
         D1)https://www.pbinfo.ro/probleme/354/n-maxim
-        D4)https://www.pbinfo.ro/probleme/347/summaxmin
-        D2)https://www.pbinfo.ro/probleme/346/maxandap 
-        D3)https://www.pbinfo.ro/probleme/500/verificareordonat
-        D4)https://www.pbinfo.ro/probleme/282/pozmax
+        D2)https://www.pbinfo.ro/probleme/347/summaxmin
+        D3)https://www.pbinfo.ro/probleme/346/maxandap
+        D4)https://www.pbinfo.ro/probleme/282/pozmax 
+        D5)https://www.pbinfo.ro/probleme/500/verificareordonat
 
     -Cifre:
         E1)https://www.pbinfo.ro/probleme/10/suma-cifrelor
@@ -47,23 +46,25 @@ Structuri repetitive :
     - Divizibilitate:
         F1)https://www.pbinfo.ro/probleme/387/suma-divizorilor-impari
         F2)https://www.pbinfo.ro/probleme/64/numarperfect
-        F3) Sa se demonstreze ca un numar este prim
+        F3)https://www.pbinfo.ro/probleme/45/verifprim
         F4)https://www.pbinfo.ro/probleme/60/primeintreele
+        F5)https://www.pbinfo.ro/probleme/3268/cmmdc-cmmmc
 
         
     - Recapitulare:
-        E0)https://www.pbinfo.ro/probleme/3270/suma-divizorilor-pari
-        E1)https://www.pbinfo.ro/probleme/3667/cifmaximp
-        E2)https://www.pbinfo.ro/probleme/408/divizorii-oglinditului
-        E3)https://www.pbinfo.ro/probleme/4319/cifre21
-        E4)https://www.pbinfo.ro/probleme/3933/zero-unu
-        E5)https://www.pbinfo.ro/probleme/4330/divizori7
-        E6)https://www.pbinfo.ro/probleme/2695/cub-perfect
-        E7)https://www.pbinfo.ro/probleme/4274/para1
-        E8)https://www.pbinfo.ro/probleme/3351/prime3
-        E9)https://www.pbinfo.ro/probleme/2222/p10-10
+        G0)https://www.pbinfo.ro/probleme/3270/suma-divizorilor-pari
+        G1)https://www.pbinfo.ro/probleme/3667/cifmaximp
+        G2)https://www.pbinfo.ro/probleme/408/divizorii-oglinditului
+        G3)https://www.pbinfo.ro/probleme/4319/cifre21
+        G4)https://www.pbinfo.ro/probleme/3933/zero-unu
+        G5)https://www.pbinfo.ro/probleme/4330/divizori7
+        G6)https://www.pbinfo.ro/probleme/2695/cub-perfect
+        G7)https://www.pbinfo.ro/probleme/60/primeintreele
+        G8)https://www.pbinfo.ro/probleme/4274/para1
+        G9)https://www.pbinfo.ro/probleme/3351/prime3
+        G10)https://www.pbinfo.ro/probleme/2222/p10-10
         
-    - Dificile:
+    - Dificile cu si fara functii:
         F1)Se citeste n si apoi n numere de la tastarura. Sa se determine daca numarul de numere palindrom din acel sir este un numar prim.
         Exemplu : 5
         121 , 12, 6, 45643, 45
@@ -78,10 +79,9 @@ Structuri repetitive :
         121 50 13
         Raspuns 50 13
         Explicatie Fitozitatile numerelor sunt : 0 -5 2. 50 are cea mai mica fitozitate iar 13 cea mai mare.
+
         F3)https://www.pbinfo.ro/probleme/4296/sumdiv
-        
-        F4)Se citeste un numar x. Sa se afiseze descompunerea lui in factori primi.
-        Exemplu: Pentru 180 se va afisa "180 = 2^2 * 3^2 * 5".
+        F4)https://www.pbinfo.ro/probleme/1319/descompunere-factori
 
         F5)Se definesc numerele impecabile ca fiind numerele care sunt doar multipli de 2 si de 5.
         100 este un numar impecabil ( 100 = 2*2*5*5)
@@ -91,5 +91,3 @@ Structuri repetitive :
         25 este un numar briliant pentru ca este impecabil si are suma cifrelor 7 care este un numar prim.
         Se citeste n si apoi n numere. Daca se intalnesc valori mai mici sau egale cu 0 nu se mai citeste chiar daca nu s-au citit toate cele n numere.
         Se cere sa se determine cate numere briliante s-au citit.
-/*
-*/
