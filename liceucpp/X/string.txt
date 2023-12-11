@@ -1,0 +1,15 @@
+ROADMAP String-uri
+    - https://www.pbinfo.ro/probleme/11/vocale
+    - https://www.pbinfo.ro/probleme/972/pozitii
+    - https://www.pbinfo.ro/probleme/4184/bacnume
+    - https://www.pbinfo.ro/probleme/90/numarmaximvocale
+    - https://www.pbinfo.ro/probleme/133/numeprenume
+    - https://www.pbinfo.ro/probleme/138/frecventa
+    - https://www.pbinfo.ro/probleme/2348/caracterul-mediu-1
+    - https://www.pbinfo.ro/probleme/2738/distlungmax
+    - https://www.pbinfo.ro/probleme/890/nrvocale
+    - https://www.pbinfo.ro/probleme/85/inserareasterisc
+    - https://www.pbinfo.ro/probleme/88/palindrom
+    - https://www.pbinfo.ro/probleme/12/initiale
+    - https://www.pbinfo.ro/probleme/97/anagrame
+    

@@ -1,0 +1,44 @@
+ROADMAP IX (SEM 2)
+
+Unidimensionale
+    Simple:
+        A0)https://www.pbinfo.ro/probleme/633/paritate1
+        A1)https://www.pbinfo.ro/probleme/546/afisare0
+        A2) https://www.pbinfo.ro/probleme/4151/amm
+        A3)https://www.pbinfo.ro/probleme/489/afisare1
+        A4)https://www.pbinfo.ro/probleme/4383/inlocuire6
+        
+    Medii:
+        A1)https://www.pbinfo.ro/probleme/491/suma2
+        A2)https://www.pbinfo.ro/probleme/161/inlocuire
+        A3)https://www.pbinfo.ro/probleme/492/numarare3
+        A4)https://www.pbinfo.ro/probleme/494/constr1
+        A5)https://www.pbinfo.ro/probleme/1452/stergere-element
+        A6)https://www.pbinfo.ro/probleme/163/stergere
+        A7)https://www.pbinfo.ro/probleme/158/inserare
+        A8)https://www.pbinfo.ro/probleme/502/verifdiferite
+        A9)https://www.pbinfo.ro/probleme/509/ordonare
+    Master:
+        C0)
+    Dificile:
+        B0)https://www.pbinfo.ro/probleme/498/numararepie
+        B1)https://www.pbinfo.ro/probleme/499/numarare5
+        B2)https://www.pbinfo.ro/probleme/510/sortprime
+        B3)https://www.pbinfo.ro/probleme/241/interclasare
+        B4)https://www.pbinfo.ro/probleme/655/transf
+
+Bidimensionale
+    Simple:
+        A0)https://www.pbinfo.ro/probleme/206/genmat1
+        A1)https://www.pbinfo.ro/probleme/767/sumapare2
+        A3)https://www.pbinfo.ro/probleme/207/genmat2
+        A4)https://www.pbinfo.ro/probleme/213/genmat4
+    Medii:
+        B1)https://www.pbinfo.ro/probleme/1749/zona4
+        B2)https://www.pbinfo.ro/probleme/666/nrprime
+        B3)https://www.pbinfo.ro/probleme/659/sumalinii1
+        B4)https://www.pbinfo.ro/probleme/769/ordcol
+        B5)https://www.pbinfo.ro/probleme/774/elimlinii
+        B6)https://www.pbinfo.ro/probleme/780/cmmdcsum
+    Dificile:
+        B7)https://www.pbinfo.ro/probleme/594/eroziune
