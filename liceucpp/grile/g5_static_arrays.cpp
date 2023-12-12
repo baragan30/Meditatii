@@ -5,6 +5,7 @@ using namespace std;
 
 void function0() {
     int arr[] = {1, 2, 3, 4, 5};
+
     for (int i = 0; i < 5; i++) {
         cout << arr[i] << " ";
     }
@@ -23,9 +24,9 @@ void function1() {
 
 void function2() {
     int arr[] = {12,768,23,900,300,244,588};
-    int n = sizeof(arr)/sizeof(int);
+    int n = sizeof(arr)/sizeof(int);//n=7
     int left = 0, right = n -1;
-    while (left < right) {
+    while (left <= right) {
         cout << arr[left]<< " "<<arr[right]<<" ";
         left++;
         right--;
@@ -54,7 +55,7 @@ void function3() {
 void function4() {
     int arr[] = {5, 7, 2, 9, 4};
     int val[] = {0, 2, 4, 6, 8};
-    int n = sizeof(arr)/sizeof(int);
+    int n = sizeof(arr) / sizeof(int);
     int max = arr[0], maxVal = val[0];
     for (int i = 1; i < 5; i++) {
         if (arr[i] > max) {
@@ -66,20 +67,19 @@ void function4() {
 }
 
 void function5() {
-    int arr1[] = {1, 2, 3, 4, 5, 6};
-    int arr2[] = {6, 7, 8, 9, 10};
-    int n1 = sizeof(arr1)/sizeof(int);
-    int n2 = sizeof(arr2)/sizeof(int);
+    int arr1[] = {23, 12, 56, -1, 78};
+    int arr2[] = {-6, 7, 78, 9, 10, 89};
+    int n1 = sizeof(arr1)/sizeof(int);// n1 = 5
+    int n2 = sizeof(arr2)/sizeof(int);// n2 = 6
     int merged[n1+n2];
     for (int i = 0; i < n1; i++) {
         merged[i] = arr1[i];
-        
     }
     for(int i = 0; i < n2; i ++){
         merged[i + n1] = arr2[i];
     }
     cout << "Merged array: ";
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < n1 + n2; i++) {
         cout << merged[i] << " ";
     }
     cout << endl;
@@ -121,7 +121,7 @@ void function7() {
 }
 
 void function8() {
-        int arr[] = {1, 2, 3, 4, 5};
+    int arr[] = {1, 2, 3, 4, 5};
     int n = sizeof(arr) / sizeof(arr[0]);
     cout << "Original array: ";
     for (int i = 0; i < n; i++) {
@@ -151,7 +151,10 @@ void function9() {
     int n = sizeof(v) / sizeof(v[0]);
     int f[10] = {0,0,0,0,0,0,0,0,0,0};
     for(int i = 0 ; i < n ; i ++){
-        f[]
+        f[v[i]]++;
+    }
+    for(int i = 0 ; i < 10 ; i ++){
+        cout <<f[i]<<" ";
     }
 }
 

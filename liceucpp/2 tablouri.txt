@@ -1,5 +1,3 @@
-ROADMAP IX (SEM 2)
-
 Unidimensionale
     Simple:
         A0)https://www.pbinfo.ro/probleme/633/paritate1
@@ -18,8 +16,7 @@ Unidimensionale
         A7)https://www.pbinfo.ro/probleme/158/inserare
         A8)https://www.pbinfo.ro/probleme/502/verifdiferite
         A9)https://www.pbinfo.ro/probleme/509/ordonare
-    Master:
-        C0)
+        
     Dificile:
         B0)https://www.pbinfo.ro/probleme/498/numararepie
         B1)https://www.pbinfo.ro/probleme/499/numarare5
