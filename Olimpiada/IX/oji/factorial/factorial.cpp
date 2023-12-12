@@ -1,11 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-/*
-
-n (1/5 + 1/25 +... + 1/?) = p
-*/
-
 int zeros(int x){
     int ctr = 0;
     while(x != 0){

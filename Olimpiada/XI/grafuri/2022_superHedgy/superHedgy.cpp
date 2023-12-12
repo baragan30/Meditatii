@@ -1,4 +1,6 @@
-// https://www.pbinfo.ro/probleme/4116/superhedgy
+/**
+ * https://www.pbinfo.ro/probleme/4116/superhedgy
+*/ 
 #include <iostream>
 #include <vector>
 #include <queue>

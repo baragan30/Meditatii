@@ -1,5 +1,7 @@
-//https://www.infoarena.ro/problema/ninjago
-
+/**
+ * @brief https://www.infoarena.ro/problema/ninjago
+ *  Complex Dijkstra with 2 cost eges
+ */
 #include <bits/stdc++.h>
 
 using namespace std;

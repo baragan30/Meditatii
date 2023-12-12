@@ -1,3 +1,9 @@
+/**
+ * @brief 
+ * Simple KRUSKAL
+ * 
+ */
+
 #include<iostream>
 #include <fstream>
 #include <vector>
@@ -33,9 +39,7 @@ void unifyNodes(int x, int y){
     int dadx = findDad(x);
     int dady = findDad(y);
     if(dadx != dady){
-        dad.at(dadx) = 
-        
-        ;
+        dad.at(dadx) = dady;
     }
 }
 int findNodeWithMinimumExtrainGraph(int graph){
