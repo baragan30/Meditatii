@@ -4,29 +4,21 @@
 using namespace std;
 
 void function0() {
-    int arr[] = {1, 2, 3, 4, 5};
-
-    for (int i = 0; i < 5; i++) {
-        cout << arr[i] << " ";
-    }
-    cout << endl;
+    char a = 'A' + 32;
+    char b = 'a' - 32;
+    cout << a << " "<<b;
 }
 
 void function1() {
-    int arr[10];
-    for (int i = 0; i < 10; i++) {
-        arr[i] = i * i;
-    }
-    for(int i = 9 ; i >= 0; i--){
-        cout << arr[i] << " ";
-    }
+    char x = 7;
+    
 }
 
 void function2() {
     int arr[] = {12,768,23,900,300,244,588};
     int n = sizeof(arr)/sizeof(int);//n=7
     int left = 0, right = n -1;
-    while (left <= right) {
+    while (left < right) {
         cout << arr[left]<< " "<<arr[right]<<" ";
         left++;
         right--;
@@ -86,15 +78,16 @@ void function5() {
 }
 
 void function6() {
+
     int arr[] = {2,6,2,7,3,4,2,7};
     int n = sizeof(arr)/sizeof(int);
     for (int i = 0; i < n - 1; i++) {     
         for (int j = i + 1; j < n; j++) {
-            if (arr[j] > arr[j + 1]) {
+            if (arr[i] > arr[j]) {
                 // Swap arr[j] and arr[j + 1]
                 int temp = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = temp;
+                arr[j] = arr[i];
+                arr[i] = temp;
             }
         }
     }

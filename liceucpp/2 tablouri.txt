@@ -7,22 +7,22 @@ Unidimensionale
         A4)https://www.pbinfo.ro/probleme/4383/inlocuire6
         
     Medii:
-        A1)https://www.pbinfo.ro/probleme/491/suma2
-        A2)https://www.pbinfo.ro/probleme/161/inlocuire
-        A3)https://www.pbinfo.ro/probleme/492/numarare3
-        A4)https://www.pbinfo.ro/probleme/494/constr1
-        A5)https://www.pbinfo.ro/probleme/1452/stergere-element
-        A6)https://www.pbinfo.ro/probleme/163/stergere
-        A7)https://www.pbinfo.ro/probleme/158/inserare
-        A8)https://www.pbinfo.ro/probleme/502/verifdiferite
-        A9)https://www.pbinfo.ro/probleme/509/ordonare
+        B1)https://www.pbinfo.ro/probleme/491/suma2
+        B2)https://www.pbinfo.ro/probleme/161/inlocuire
+        B3)https://www.pbinfo.ro/probleme/492/numarare3
+        B4)https://www.pbinfo.ro/probleme/494/constr1
+        B5)https://www.pbinfo.ro/probleme/1452/stergere-element
+        B6)https://www.pbinfo.ro/probleme/163/stergere
+        B7)https://www.pbinfo.ro/probleme/158/inserare
+        B8)https://www.pbinfo.ro/probleme/502/verifdiferite
+        B9)https://www.pbinfo.ro/probleme/509/ordonare
         
     Dificile:
-        B0)https://www.pbinfo.ro/probleme/498/numararepie
-        B1)https://www.pbinfo.ro/probleme/499/numarare5
-        B2)https://www.pbinfo.ro/probleme/510/sortprime
-        B3)https://www.pbinfo.ro/probleme/241/interclasare
-        B4)https://www.pbinfo.ro/probleme/655/transf
+        C0)https://www.pbinfo.ro/probleme/498/numararepie
+        C1)https://www.pbinfo.ro/probleme/499/numarare5
+        C2)https://www.pbinfo.ro/probleme/510/sortprime
+        C3)https://www.pbinfo.ro/probleme/241/interclasare
+        C4)https://www.pbinfo.ro/probleme/655/transf
 
 Bidimensionale
     Simple:

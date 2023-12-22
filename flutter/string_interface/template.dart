@@ -1,5 +1,5 @@
 import 'dart:math';
-import 'screen.dart';
+import './screen.dart';
 
 class Container extends Widget {
   Container({
@@ -17,7 +17,7 @@ class Container extends Widget {
   Space drawWidget(
       Function(int p1, int p2, String p3) drawPixel, Space maxSpace) {
     Space actualSpace = Space.fromMaxSpace(
-      maxSize: maxSpace,
+      maxSpace: maxSpace,
       width: width,
       height: height,
     );
@@ -41,11 +41,13 @@ class Column extends Widget {
   Space drawWidget(
       Function(int p1, int p2, String p3) drawPixel, Space maxSpace) {
     Space actualSpace = Space.fromMaxSpace(
-      maxSize: maxSpace,
+      maxSpace: maxSpace,
       width: 0,
       height: 0,
     );
-    for (Widget child in children) {
+    print(actualSpace);
+    for (int i = 0; i < children.length; i++) {
+      Widget child = children[i];
       Space space = Space(
         maxSpace.xStart,
         actualSpace.yEnd,
@@ -55,6 +57,7 @@ class Column extends Widget {
       space = child.drawWidget(drawPixel, space);
       actualSpace.xEnd = max(actualSpace.xEnd, space.xEnd);
       actualSpace.yEnd += space.yEnd;
+      print(actualSpace);
     }
     return actualSpace;
   }
@@ -70,29 +73,29 @@ void main() {
   //     height: 3,
   //   ),
   // );
-  Screen screen = Screen(
-    width: 4,
-    height: 5,
-    body: Column(
-      children: [
-        Container(
-          color: "a",
-          width: 3,
-          height: 3,
-          child: Container(
-            color: "G",
-            height: 2,
-            width: 2,
-          ),
-        ),
-        Container(
-          color: "b",
-          width: 2,
-          height: 2,
-        ),
-      ],
-    ),
-  );
-  screen.drawBody();
-  screen.display();
+  // Screen screen = Screen(
+  //   width: 4,
+  //   height: 5,
+  //   body: Column(
+  //     children: [
+  //       Container(
+  //         color: "a",
+  //         width: 3,
+  //         height: 3,
+  //         child: Container(
+  //           color: "G",
+  //           height: 2,
+  //           width: 2,
+  //         ),
+  //       ),
+  //       Container(
+  //         color: "b",
+  //         width: 2,
+  //         height: 2,
+  //       ),
+  //     ],
+  //   ),
+  // );
+  // screen.drawBody();
+  // screen.display();
 }

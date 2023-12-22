@@ -6,6 +6,10 @@
         "regex": "cpp",
         "utility": "cpp",
         "valarray": "cpp",
-        "iostream": "cpp"
-    }
+        "iostream": "cpp",
+        "iosfwd": "cpp",
+        "cmath": "cpp",
+        "ostream": "cpp"
+    },
+    "cmake.sourceDirectory": "D:/Proiecte/meditatii/flutter/to_do_list/linux"
 }

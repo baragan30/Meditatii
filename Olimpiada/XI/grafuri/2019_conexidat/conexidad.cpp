@@ -82,7 +82,6 @@ int main(){
     for(auto m : edges){
         unifyNodes(m.first, m.second);
     }
-    
     for (int i = 2; i <= n ; i ++){
         int dad1 = findDad(1);
         int dadI = findDad(i);
@@ -90,6 +89,5 @@ int main(){
             connectComponents(dad1, dadI);
         }
     }
-
     display();
 }

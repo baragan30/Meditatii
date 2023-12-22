@@ -100,7 +100,6 @@ void function9() {
 }
 
 
-
 int main(){
     using Function = void (*)();
     const int NR_FUNCTIONS = 10;

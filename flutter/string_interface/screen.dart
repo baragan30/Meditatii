@@ -3,11 +3,11 @@ import 'dart:math';
 class Space {
   Space(this.xStart, this.yStart, this.xEnd, this.yEnd);
   Space.fromMaxSpace(
-      {required Space maxSize, required int width, required int height})
-      : xStart = maxSize.xStart,
-        yStart = maxSize.yStart,
-        xEnd = min(maxSize.xEnd, maxSize.xStart + width),
-        yEnd = min(maxSize.yEnd, maxSize.yStart + height);
+      {required Space maxSpace, required int width, required int height})
+      : xStart = maxSpace.xStart,
+        yStart = maxSpace.yStart,
+        xEnd = min(maxSpace.xEnd, maxSpace.xStart + width),
+        yEnd = min(maxSpace.yEnd, maxSpace.yStart + height);
 
   int xStart, xEnd, yStart, yEnd;
   @override

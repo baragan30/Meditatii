@@ -4,6 +4,7 @@
 using namespace std;
 ifstream in ("cautbin.in");
 ofstream out ("cautbin.out");
+
 int v[100001], n, i, intrebari, x, tip;
 int cautbinar1(int x)
 {
