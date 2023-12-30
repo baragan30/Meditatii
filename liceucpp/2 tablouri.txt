@@ -1,28 +1,29 @@
 Unidimensionale
     Simple:
-        A0)https://www.pbinfo.ro/probleme/633/paritate1
-        A1)https://www.pbinfo.ro/probleme/546/afisare0
+        A0)https://www.pbinfo.ro/probleme/633/paritate1 //home
+        A1)https://www.pbinfo.ro/probleme/546/afisare0 //done
         A2) https://www.pbinfo.ro/probleme/4151/amm
-        A3)https://www.pbinfo.ro/probleme/489/afisare1
-        A4)https://www.pbinfo.ro/probleme/4383/inlocuire6
-        
+        A3)https://www.pbinfo.ro/probleme/500/verificareordonat
+        A4)https://www.pbinfo.ro/probleme/489/afisare1
+
     Medii:
-        B1)https://www.pbinfo.ro/probleme/491/suma2
-        B2)https://www.pbinfo.ro/probleme/161/inlocuire
-        B3)https://www.pbinfo.ro/probleme/492/numarare3
-        B4)https://www.pbinfo.ro/probleme/494/constr1
-        B5)https://www.pbinfo.ro/probleme/1452/stergere-element
-        B6)https://www.pbinfo.ro/probleme/163/stergere
-        B7)https://www.pbinfo.ro/probleme/158/inserare
-        B8)https://www.pbinfo.ro/probleme/502/verifdiferite
-        B9)https://www.pbinfo.ro/probleme/509/ordonare
+        B1)https://www.pbinfo.ro/probleme/4383/inlocuire6
+        B2)https://www.pbinfo.ro/probleme/491/suma2
+        B3)https://www.pbinfo.ro/probleme/161/inlocuire
+        B4)https://www.pbinfo.ro/probleme/492/numarare3
+        B5)https://www.pbinfo.ro/probleme/494/constr1
+        B6)https://www.pbinfo.ro/probleme/1452/stergere-element
+        B7)https://www.pbinfo.ro/probleme/163/stergere
+        B8)https://www.pbinfo.ro/probleme/158/inserare
+        B9)https://www.pbinfo.ro/probleme/502/verifdiferite
+        B10)https://www.pbinfo.ro/probleme/509/ordonare
         
     Dificile:
         C0)https://www.pbinfo.ro/probleme/498/numararepie
         C1)https://www.pbinfo.ro/probleme/499/numarare5
         C2)https://www.pbinfo.ro/probleme/510/sortprime
         C3)https://www.pbinfo.ro/probleme/241/interclasare
-        C4)https://www.pbinfo.ro/probleme/655/transf
+        C4)https://www.pbinfo.ro/probleme/655/transf -> homework
 
 Bidimensionale
     Simple:
@@ -31,11 +32,13 @@ Bidimensionale
         A3)https://www.pbinfo.ro/probleme/207/genmat2
         A4)https://www.pbinfo.ro/probleme/213/genmat4
     Medii:
-        B1)https://www.pbinfo.ro/probleme/1749/zona4
-        B2)https://www.pbinfo.ro/probleme/666/nrprime
-        B3)https://www.pbinfo.ro/probleme/659/sumalinii1
-        B4)https://www.pbinfo.ro/probleme/769/ordcol
+        B2)https://www.pbinfo.ro/probleme/666/nrprime -> homework
+        )https://www.pbinfo.ro/probleme/993/genmat20
+        B1)https://www.pbinfo.ro/probleme/1749/zona4 ->done
+        B3)https://www.pbinfo.ro/probleme/659/sumalinii1 -> homework
+        B4)https://www.pbinfo.ro/probleme/769/ordcol -> homework
         B5)https://www.pbinfo.ro/probleme/774/elimlinii
         B6)https://www.pbinfo.ro/probleme/780/cmmdcsum
+        )https://www.pbinfo.ro/probleme/597/poza
     Dificile:
         B7)https://www.pbinfo.ro/probleme/594/eroziune

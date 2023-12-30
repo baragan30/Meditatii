@@ -12,9 +12,9 @@ void function0() {
 }
 
 bool isBetter(int x, int y){
-    if(x % 10 == x % y)
-        return x > y;
-    return x % 10 > y % 10;
+    if(x % 10 != y % 10)
+        return x % 10 > y % 10;
+    return x > y;
 }
 
 void function1() {
@@ -64,9 +64,9 @@ void increase2(int &n){
 }
 
 void function5() {
-    int n = 10;
-    increase2(n);
-    cout << n;
+    int x = 10;
+    increase2(x);
+    cout << x;
 }
 void change(int &a, int &b){
     int x = a;
@@ -77,7 +77,7 @@ void change(int &a, int &b){
 void function6() {
     int x = 3, y = 4;
     change(x,y);
-    cout << x, y;
+    cout << x << " "<< y;
 }
 
 int f1(int &y, int x)
@@ -92,32 +92,32 @@ void function7() {
     cout<< x << " " << y << " ";
     cout<< f1(x,y);
 }
-void f(int a, int &b) {
+void f2(int a, int &b) {
     if(a>0)
     {
-        a++; b--; f(b,a);
+        a++; b--; f2(b,a);
     }
     cout<<a<<" "<<b<<" ";
 }
 
 void function8() {
     int a=0, b=1;
-    f(b,a);
+    f2(b,a);
     cout<<a<<" "<<b;
 }
 float f3(int i,int n)
 { 
     if(i<=3*n)
-    if(i%3!=0)
-        return f3(i+1,n);
-    else
-        return 1.0/i + f3(i+1,n);
-    else return 0;
+        if(i%3!=0)
+            return f3(i+1,n);
+        else
+            return i + f3(i+1,n);
+    return 0;
 }
 
 
 void function9() {
-    f3(1,10);
+    cout << f3(1,6);
 }
 
 int main(){

@@ -3,45 +3,15 @@
 #include <cstdlib>
 using namespace std;
 
-/*
-  0 1 2 3
-0 1 1 1 1
-1 1 1 1 1
-2 1 1 1 1
-3 1 1 1 1
-
-i + j = 3 = n - 1
-
-
-*/
-int relDiagPrinc(int i,int j){
-    if(i < j)
-        return 1;
-    if(i > j)
-        return -1;
-    return 0;// i == j
-}
-int relDiagSec(int i, int j, int n){
-    return 0;//i + j == n - 1;
-}
-
 void function0() {
-    int arr[] = {1, 2, 3, 4, 5};
-
-    for (int i = 0; i < 5; i++) {
-        cout << arr[i] << " ";
-    }
-    cout << endl;
+    char a = 'A' + 32;
+    char b = 'a' - 32;
+    cout << a << " "<<b;
 }
 
 void function1() {
-    int arr[10];
-    for (int i = 0; i < 10; i++) {
-        arr[i] = i * i;
-    }
-    for(int i = 9 ; i >= 0; i--){
-        cout << arr[i] << " ";
-    }
+    char x = 7;
+    
 }
 
 void function2() {
@@ -114,7 +84,7 @@ void function6() {
     for (int i = 0; i < n - 1; i++) {     
         for (int j = i + 1; j < n; j++) {
             if (arr[i] > arr[j]) {
-                // Swap arr[i] and arr[j]
+                // Swap arr[j] and arr[j + 1]
                 int temp = arr[j];
                 arr[j] = arr[i];
                 arr[i] = temp;
@@ -146,6 +116,13 @@ void function7() {
 void function8() {
     int arr[] = {1, 2, 3, 4, 5};
     int n = sizeof(arr) / sizeof(arr[0]);
+    cout << "Original array: ";
+    for (int i = 0; i < n; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+
+    // Rotate array to the right by 2 positions
     int rotations = 2;
     for (int i = 0; i < rotations; i++) {
         int last = arr[n - 1];
@@ -155,6 +132,7 @@ void function8() {
         arr[0] = last;
     }
 
+    cout << "Array after rotating " << rotations << " times: ";
     for (int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
