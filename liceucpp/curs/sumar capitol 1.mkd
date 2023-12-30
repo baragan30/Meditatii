@@ -12,6 +12,16 @@ Orice numar de 9 cifre.
 
 #### Variabile Boolean
 - `bool`: Reprezintă valori de adevăr (`true` sau `false`, echivalente cu `0` și `1`).
+### Citire si afisare
+- Foloseste biblioteca `<iostream>`
+```cpp
+{
+  int x, y;
+  float z;
+  cin >> x >> y >> z;// citeste 2 numere intregi de la tastatura si un numar real
+  cout <<y << z << x;//Le afiseaza intr-o alta ordine
+}
+```
 
 ### Operatori în C++
 #### Operatori Aritmetici
@@ -50,21 +60,21 @@ Orice numar de 9 cifre.
 - Execută blocul de cod `{ ... }` atâta timp cât `condiție` este `true`.
 - Exemplu:
   ```cpp
-    int x = 0;
-    do {
-        // Cod executat cel puțin o dată; repetă dacă x este între 1 și 2
+    int x = 1;
+    while (x > 0 && x < 3){
+        // Cod executat repetitiv cât timp x este între 1 și 2
         x++;
-    } while (x > 0 && x < 3);
+    }
     ```
 ### Structura Do-While
-- `do { cod } while (condiție);`
+  - `do { cod } while (condiție);`
   - Execută `cod` o dată, apoi repetă atâta timp cât `condiție` este `true`.
   - Condiția este evaluată **după** fiecare iterare.
 - Exemplu:
   ```cpp
   x = 0;
   do {
-      // Cod executat cel puțin o dată și apoi repetat dacă x este mai mare decat 0 si mai mic decât 3
+      // Cod executat cel puțin o dată și apoi repetat cât timp x este între 1 și 2
       x++;
   } while (x > 0 && x < 3);
     ```
