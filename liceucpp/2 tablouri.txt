@@ -23,7 +23,7 @@ Unidimensionale
         C1)https://www.pbinfo.ro/probleme/499/numarare5
         C2)https://www.pbinfo.ro/probleme/510/sortprime
         C3)https://www.pbinfo.ro/probleme/241/interclasare
-        C4)https://www.pbinfo.ro/probleme/655/transf -> homework
+        C4)https://www.pbinfo.ro/probleme/655/transf 
 
 Bidimensionale
     Simple:

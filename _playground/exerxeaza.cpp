@@ -1,10 +1,19 @@
 #include <iostream>
-#include <cmath>
-
 using namespace std;
 
 int main(){
-    double x = 0.2, y = 0.1,z;
-   cout << fabs(y - x);
-   cout << abs(4);
+  int n, f1 = 1, f2 = 1, f3;
+  cin >> n;
+  if(n >= 1)
+    cout << 1 << " ";
+  if(n >= 2)
+    cout << 1 << " ";
+  for(int i = 3; i <= n; i ++){
+    f3 = f1 + f2;
+    f2 = f1;
+    f1 = f3;
+    cout << f3 << " ";
+  }
+  return 0;
 }
+
