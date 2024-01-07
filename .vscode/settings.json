@@ -10,7 +10,8 @@
         "iosfwd": "cpp",
         "cmath": "cpp",
         "ostream": "cpp",
-        "limits": "cpp"
+        "limits": "cpp",
+        "random": "cpp"
     },
     "cmake.sourceDirectory": "D:/Proiecte/meditatii/flutter/to_do_list/linux"
 }

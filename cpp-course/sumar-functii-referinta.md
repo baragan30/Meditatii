@@ -34,21 +34,21 @@ int main(){
 ### Exemplu 2 : Calcularea Inversului unui Număr
 ```cpp
 int invers(int x) {
-    int invers = 0;
+    int inv = 0;
     // Execută bucla atât timp cât mai există cifre în număr
     while (x != 0) {
         // Adaugă ultima cifră a lui x la invers
-        invers = invers * 10 + x % 10; 
+        inv = inv * 10 + x % 10; 
         x /= 10; // Elimină ultima cifră din x
     }
     //La aceasta linie variabila x din functie are valoarea 0
-    return invers; // Returnează numărul inversat
+    return inv; // Returnează numărul inversat
 }
 int main(){
     //Observa cum variabila x din main nu isi modifica valoarea
-    int x = 123, invers;
-    invers = invers(x);;
-    cout << "Inversul lui "<< x << " este " << invers <<'\n'>>;
+    int x = 123, inv;
+    inv = invers(x);;
+    cout << "Inversul lui "<< x << " este " << inv <<'\n';
     cout <<x << " = "<< invers(invers(x));
 }
 ```

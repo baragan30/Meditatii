@@ -3,30 +3,19 @@
 #include <cstdlib>
 using namespace std;
 
-/*
-  0 1 2 3
-0 1 1 1 1
-1 1 1 1 1
-2 1 1 1 1
-3 1 1 1 1
-
-i + j = 3 = n - 1
-
-
-*/
-int relDiagPrinc(int i,int j){
-    if(i < j)
-        return 1;
-    if(i > j)
-        return -1;
-    return 0;// i == j
-}
-int relDiagSec(int i, int j, int n){
-    return 0;//i + j == n - 1;
-}
+// int relDiagPrinc(int i,int j){
+//     if(i < j)
+//         return 1;
+//     if(i > j)
+//         return -1;
+//     return 0;// i == j
+// }
+// int relDiagSec(int i, int j, int n){
+//     return 0;//i + j == n - 1;
+// }
 
 void function0() {
-    int arr[] = {1, 2, 3, 4, 5};
+    int arr[] = {11, 12, 13, 14, 15};
 
     for (int i = 0; i < 5; i++) {
         cout << arr[i] << " ";
@@ -46,8 +35,8 @@ void function1() {
 
 void function2() {
     int arr[] = {12,768,23,900,300,244,588};
-    int n = sizeof(arr)/sizeof(int);//n=7
-    int left = 0, right = n -1;
+    int n = sizeof(arr)/sizeof(int); //n=7
+    int left = 0, right = n - 1;
     while (left < right) {
         cout << arr[left]<< " "<<arr[right]<<" ";
         left++;

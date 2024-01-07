@@ -1,9 +1,9 @@
+* [Home](/)
 - [Introducere in programare](sumar-introducere.md)
-  - [Sumar](sumar-introducere.md)
-- [Algoritmica de baza](algoritmica.md)
+- [Algoritmica de baza](sumar-algoritmica.md)
   - [Sumar](sumar-algoritmica.md)
+  - [Probleme propuse](algoritmica.md)
 - [Functii si referinte](sumar-functii-referinta.md)
-  - [Sumar](sumar-functii-referinta.md)
 <!-- - Tablouri unidemensionale
   - [Sumar](sumar-unidemensionale.md)
 - Tablouri bidimensionale

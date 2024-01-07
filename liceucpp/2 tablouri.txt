@@ -1,7 +1,7 @@
 Unidimensionale
     Simple:
-        A0)https://www.pbinfo.ro/probleme/633/paritate1 //home
-        A1)https://www.pbinfo.ro/probleme/546/afisare0 //done
+        A0)https://www.pbinfo.ro/probleme/633/paritate1
+        A1)https://www.pbinfo.ro/probleme/546/afisare0
         A2) https://www.pbinfo.ro/probleme/4151/amm
         A3)https://www.pbinfo.ro/probleme/500/verificareordonat
         A4)https://www.pbinfo.ro/probleme/489/afisare1
@@ -32,11 +32,11 @@ Bidimensionale
         A3)https://www.pbinfo.ro/probleme/207/genmat2
         A4)https://www.pbinfo.ro/probleme/213/genmat4
     Medii:
-        B2)https://www.pbinfo.ro/probleme/666/nrprime -> homework
+        B0)https://www.pbinfo.ro/probleme/666/nrprime
         )https://www.pbinfo.ro/probleme/993/genmat20
-        B1)https://www.pbinfo.ro/probleme/1749/zona4 ->done
-        B3)https://www.pbinfo.ro/probleme/659/sumalinii1 -> homework
-        B4)https://www.pbinfo.ro/probleme/769/ordcol -> homework
+        B1)https://www.pbinfo.ro/probleme/1749/zona4 
+        B3)https://www.pbinfo.ro/probleme/659/sumalinii1 
+        B4)https://www.pbinfo.ro/probleme/769/ordcol
         B5)https://www.pbinfo.ro/probleme/774/elimlinii
         B6)https://www.pbinfo.ro/probleme/780/cmmdcsum
         )https://www.pbinfo.ro/probleme/597/poza

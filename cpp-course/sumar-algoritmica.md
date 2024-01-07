@@ -40,7 +40,7 @@ int main(){
 ---
 
 #### Rezolvare 2
-- Observam ca avem mereu n/2 linii de afisat, iar pe fiecare linie 2 numere
+- Observam ca avem mereu n/2 linii de afisat(atat pentru n par cat si impar), iar pe fiecare linie 2 numere
 - Incercam sa ne dam seama de o formula pentru numerele aflate pe linia i.
 - Pe linia 1 se vor afla nummerele 1 si n - 1
 - Pe linia 2 se vor afla numerele 2 si n - 2
@@ -82,6 +82,7 @@ int main(){
         cout << 1 << " ";
     for(int i = 3; i <= n; i ++){
         f3 = f1 + f2;
+        //actualizam f2 si f3
         f2 = f1;
         f1 = f3;
         cout << f3 << " ";
@@ -102,6 +103,8 @@ int main(){
 
 ## Divizibilitate
 
-### 
+### Numere prime si divizori
+
+### Cmmdc, Cmmmc si numere prime intre ele
 
 ## Recapitulare
