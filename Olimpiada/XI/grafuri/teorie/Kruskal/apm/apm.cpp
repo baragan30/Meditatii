@@ -8,8 +8,8 @@ using namespace std;
 //numbers of nodes and edges
 int n, m;
 struct Edge{
-    int x;  //first node
-    int y;  //second node
+    int nodA;  //first node
+    int nodB;  //second node
     int c;  //cost 
 };
 //retain the componnent name of each node
@@ -28,7 +28,7 @@ void read(){
     in >> n >> m;
     for(int i = 0; i < m; i++){
         Edge m;
-        in >> m.x >> m.y >> m.c;
+        in >> m.nodA >> m.nodB >> m.c;
         edges.push_back(m);
     }
     for(int i = 0 ; i <= n; i++){
@@ -46,8 +46,8 @@ int findDad(int x){
 
 void Kruskal(){
     for(auto m : edges){
-        int dadX = findDad(m.x);
-        int dadY = findDad(m.y);
+        int dadX = findDad(m.nodA);
+        int dadY = findDad(m.nodB);
         //if m.x and m.y are not from the same component
         if(dadX != dadY){
             // merge components
@@ -65,7 +65,7 @@ void display(){
     out << suma <<'\n';
     out << newEdges.size()<<'\n';
     for(auto m : newEdges){
-        out << m.x << " " << m.y<<'\n';
+        out << m.nodA << " " << m.nodB<<'\n';
     }
 }
 

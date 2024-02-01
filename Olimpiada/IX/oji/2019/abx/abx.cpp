@@ -65,12 +65,13 @@ ll solve(ll x, ll exp){
     p = power(left, exp);
     sol = selectBest(x, sol, p);
     p = power(left - 1,exp);
+    //return best from 1 , left^exp , (left-1) ^ exp
     return  selectBest(x, sol, p);
 }
 
 ll solve(ll x){
     ll sol = 1;
-    for(int exp = 2; exp <= 64; exp++){
+    for(int exp = 2; exp <= 62; exp++){
         ll sol2 = solve(x,exp);
         sol = selectBest(x,sol,sol2);
         if(sol == x)

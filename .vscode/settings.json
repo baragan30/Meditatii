@@ -11,7 +11,14 @@
         "cmath": "cpp",
         "ostream": "cpp",
         "limits": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "fstream": "cpp",
+        "cstring": "cpp",
+        "istream": "cpp",
+        "chrono": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp"
     },
     "cmake.sourceDirectory": "D:/Proiecte/meditatii/flutter/to_do_list/linux"
 }

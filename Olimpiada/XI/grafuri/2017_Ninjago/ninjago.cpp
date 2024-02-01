@@ -9,8 +9,8 @@ ifstream in("ninjago.in");
 ofstream out("ninjago.out");
 
 struct Edge{
-    int x;
-    int y;
+    int nodA;
+    int nodB;
     int cost;
     int numbersOfE;
 };
@@ -53,7 +53,7 @@ void readEdges(bool readEEdges){
 
 void displayEdges(){
     for(auto e : edges){
-        cout << e.x << " "<<e.y <<" cost = "<<e.cost << " E = "<<e.numbersOfE<<"\n";
+        cout << e.nodA << " "<<e.nodB <<" cost = "<<e.cost << " E = "<<e.numbersOfE<<"\n";
     }
 }
 int getDad(int x){
@@ -68,8 +68,8 @@ struct Answer{
 Answer Kruskal(){
     int cost = 0, ENumbers = 0, helpers = 0;
     for(auto e : edges){
-        int dadX = getDad(e.x);
-        int dadY = getDad(e.y);
+        int dadX = getDad(e.nodA);
+        int dadY = getDad(e.nodB);
         if(dadX != dadY){
             father[dadY] = dadX;
             nrOfNodes[dadX] += nrOfNodes[dadY];

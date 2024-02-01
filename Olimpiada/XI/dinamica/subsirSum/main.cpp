@@ -16,7 +16,7 @@ int main(){
     for(int i = 0 ; i < n ; i ++){
         in >> x[i];
         nr[i] = 1;
-        for(int j = i - 1; j >=0; j ++){
+        for(int j = i - 1; j >= 0; j ++){
             if(x[j] < x[i]){
                 nr[i] = max(nr[i], nr[j] + 1);
             }

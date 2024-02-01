@@ -2,28 +2,40 @@ Unidimensionale
     Simple:
         A0)https://www.pbinfo.ro/probleme/633/paritate1
         A1)https://www.pbinfo.ro/probleme/546/afisare0
-        A2) https://www.pbinfo.ro/probleme/4151/amm
+        A2)https://www.pbinfo.ro/probleme/4151/amm
         A3)https://www.pbinfo.ro/probleme/500/verificareordonat
         A4)https://www.pbinfo.ro/probleme/489/afisare1
+        A5)https://www.pbinfo.ro/probleme/278/maxmin1
 
     Medii:
         B1)https://www.pbinfo.ro/probleme/4383/inlocuire6
         B2)https://www.pbinfo.ro/probleme/491/suma2
-        B3)https://www.pbinfo.ro/probleme/161/inlocuire
-        B4)https://www.pbinfo.ro/probleme/492/numarare3
-        B5)https://www.pbinfo.ro/probleme/494/constr1
-        B6)https://www.pbinfo.ro/probleme/1452/stergere-element
-        B7)https://www.pbinfo.ro/probleme/163/stergere
-        B8)https://www.pbinfo.ro/probleme/158/inserare
-        B9)https://www.pbinfo.ro/probleme/502/verifdiferite
-        B10)https://www.pbinfo.ro/probleme/509/ordonare
+        B6)https://www.pbinfo.ro/probleme/516/sumsec1
+        B3)https://www.pbinfo.ro/probleme/490/afisareminmax
+        B4)https://www.pbinfo.ro/probleme/161/inlocuire
+        B5)https://www.pbinfo.ro/probleme/492/numarare3
+        
+    Operatii pe vectori:
+        C1)https://www.pbinfo.ro/probleme/494/constr1
+        C2)https://www.pbinfo.ro/probleme/1452/stergere-element
+        C3)https://www.pbinfo.ro/probleme/163/stergere
+        C4)https://www.pbinfo.ro/probleme/158/inserare
+        C5)https://www.pbinfo.ro/probleme/502/verifdiferite
+        C6)https://www.pbinfo.ro/probleme/509/ordonare
         
     Dificile:
-        C0)https://www.pbinfo.ro/probleme/498/numararepie
-        C1)https://www.pbinfo.ro/probleme/499/numarare5
-        C2)https://www.pbinfo.ro/probleme/510/sortprime
-        C3)https://www.pbinfo.ro/probleme/241/interclasare
-        C4)https://www.pbinfo.ro/probleme/655/transf 
+        D0)https://www.pbinfo.ro/probleme/498/numararepie
+        D1)https://www.pbinfo.ro/probleme/499/numarare5
+        D2)https://www.pbinfo.ro/probleme/510/sortprime
+        D3)https://www.pbinfo.ro/probleme/241/interclasare
+        D4)https://www.pbinfo.ro/probleme/655/transf
+        D5)https://www.pbinfo.ro/probleme/4508/eratostene10
+
+    Vectori de frecventa:
+        E1)https://www.pbinfo.ro/probleme/1005/numere8
+        E2)https://www.pbinfo.ro/probleme/525/numere1
+        E3)https://www.pbinfo.ro/probleme/244/cifreord
+        E4)https://www.pbinfo.ro/probleme/4508/eratostene10
 
 Bidimensionale
     Simple:
@@ -31,14 +43,16 @@ Bidimensionale
         A1)https://www.pbinfo.ro/probleme/767/sumapare2
         A3)https://www.pbinfo.ro/probleme/207/genmat2
         A4)https://www.pbinfo.ro/probleme/213/genmat4
+        A5)https://www.pbinfo.ro/probleme/658/sumalinii
     Medii:
         B0)https://www.pbinfo.ro/probleme/666/nrprime
-        )https://www.pbinfo.ro/probleme/993/genmat20
-        B1)https://www.pbinfo.ro/probleme/1749/zona4 
+        B1)https://www.pbinfo.ro/probleme/993/genmat20
+        B2)https://www.pbinfo.ro/probleme/1749/zona4 
         B3)https://www.pbinfo.ro/probleme/659/sumalinii1 
         B4)https://www.pbinfo.ro/probleme/769/ordcol
         B5)https://www.pbinfo.ro/probleme/774/elimlinii
         B6)https://www.pbinfo.ro/probleme/780/cmmdcsum
-        )https://www.pbinfo.ro/probleme/597/poza
+        
     Dificile:
-        B7)https://www.pbinfo.ro/probleme/594/eroziune
+        C1)https://www.pbinfo.ro/probleme/597/poza
+        C2)https://www.pbinfo.ro/probleme/594/eroziune

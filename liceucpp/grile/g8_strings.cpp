@@ -1,159 +1,169 @@
 #include <iostream>
 #include <limits>
 #include <cstdlib>
+#include <string.h>
 using namespace std;
 
 void function0() {
-    char a = 'A' + 32;
-    char b = 'a' - 32;
-    cout << a << " "<<b;
+    char str[] = "123456789";
+    cout << strlen(str + 4) << endl;
 }
 
 void function1() {
-    char x = 7;
-    
+    char source[] = "abcdefg";
+    char destination[50] = "123456789";
+    strcpy(destination + 3, source + 2);
+    cout <<destination << endl;
 }
 
+
 void function2() {
-    int arr[] = {12,768,23,900,300,244,588};
-    int n = sizeof(arr)/sizeof(int);//n=7
-    int left = 0, right = n -1;
-    while (left < right) {
-        cout << arr[left]<< " "<<arr[right]<<" ";
-        left++;
-        right--;
-    }
-    if(left == right){
-        cout << arr[left];
-    }
+    char source[] = "abcdefghij";
+    char destination[50] = "123456789";
+    strncpy(destination + 1, source + 2, 5);
+    destination[8] = '\0';
+    cout << destination << endl;
 }
 
 void function3() {
-    int arr[] = {2,6,2,7,3,4,2,7};
-    int n = sizeof(arr)/sizeof(int), num = 7;
-    bool found = false;
-    for (int i = 0; i < n; i++) {
-        if (arr[i] == num) {
-            cout << "Number found at index " << i << endl;
-            found = true;
-            break;
-        }
-    }
-    if (!found) {
-        cout << "Number not found!" << endl;
-    }
+    cout << strcmp("ab","ab")<<endl;
+    cout << strcmp("ab","a")<<endl;
+    cout << strcmp("a","ab")<<endl;
+    cout << strcmp("ab","aa")<<endl;
+    cout << strcmp("aa","ab")<<endl;
 }
 
 void function4() {
-    int arr[] = {5, 7, 2, 9, 4};
-    int val[] = {0, 2, 4, 6, 8};
-    int n = sizeof(arr) / sizeof(int);
-    int max = arr[0], maxVal = val[0];
-    for (int i = 1; i < 5; i++) {
-        if (arr[i] > max) {
-            max = arr[i];
-            maxVal = val[i];
-        }
-    }
-    cout << "Maximum value in array: " << maxVal << endl;
+    char str[] = "1a2a3a";
+    char ch = 'a';
+    char *result = strchr(str + 2, ch);
+    cout << result << "\n"<<result - str;
 }
 
+//remake
 void function5() {
-    int arr1[] = {23, 12, 56, -1, 78};
-    int arr2[] = {-6, 7, 78, 9, 10, 89};
-    int n1 = sizeof(arr1)/sizeof(int);// n1 = 5
-    int n2 = sizeof(arr2)/sizeof(int);// n2 = 6
-    int merged[n1+n2];
-    for (int i = 0; i < n1; i++) {
-        merged[i] = arr1[i];
+    char str[] = "Find a character";
+    char ch = 'a';
+    char *result = nullptr;
+    for (int i = 0; str[i] != '\0'; i++) {
+        if (str[i] == ch) {
+            result = &str[i];
+            break;
+        }
     }
-    for(int i = 0; i < n2; i ++){
-        merged[i + n1] = arr2[i];
+    if (result) {
+        cout << result[0];
+    } else {
+        cout << "Character not found." << endl;
     }
-    cout << "Merged array: ";
-    for (int i = 0; i < n1 + n2; i++) {
-        cout << merged[i] << " ";
-    }
-    cout << endl;
 }
 
 void function6() {
-
-    int arr[] = {2,6,2,7,3,4,2,7};
-    int n = sizeof(arr)/sizeof(int);
-    for (int i = 0; i < n - 1; i++) {     
-        for (int j = i + 1; j < n; j++) {
-            if (arr[i] > arr[j]) {
-                // Swap arr[j] and arr[j + 1]
-                int temp = arr[j];
-                arr[j] = arr[i];
-                arr[i] = temp;
-            }
-        }
-    }
-    for (int i = 0; i < n; i++) {
-        cout << arr[i] << " ";
+    char haystack[] = "This is smple, simple string";
+    char needle[] = "simple";
+    char *result = strstr(haystack, needle + 2);
+    if (result) {
+        cout << "Substring found: " << result << endl;
+    } else {
+        cout << "Substring not found." << endl;
     }
 }
 
 void function7() {
-    int arr[] = {6,5,1,5,0,3};
-    int n = sizeof(arr)/sizeof(int);
-    for (int i = 0; i < n - 1; i++) {
-        int j = i + 1;
-        int x = arr[j];
-        while(j > 0 && x < arr[j-1]){
-            arr[j] = arr[j-1];
-            j--;
-        } 
-        arr[j] = x;
-    }
-    for (int i = 0; i < n; i++) {
-        cout << arr[i] << " ";
+    char str[] = "A simple, test, string";
+    const char delimiters[] = ", ";
+    char *token = strtok(str, delimiters);
+    while (token != NULL) {
+        cout << "Token: " << token << endl;
+        token = strtok(NULL, delimiters);
     }
 }
+
+
 
 void function8() {
-    int arr[] = {1, 2, 3, 4, 5};
-    int n = sizeof(arr) / sizeof(arr[0]);
-    cout << "Original array: ";
-    for (int i = 0; i < n; i++) {
-        cout << arr[i] << " ";
-    }
-    cout << endl;
-
-    // Rotate array to the right by 2 positions
-    int rotations = 2;
-    for (int i = 0; i < rotations; i++) {
-        int last = arr[n - 1];
-        for (int j = n - 1; j > 0; j--) {
-            arr[j] = arr[j - 1];
-        }
-        arr[0] = last;
-    }
-
-    cout << "Array after rotating " << rotations << " times: ";
-    for (int i = 0; i < n; i++) {
-        cout << arr[i] << " ";
-    }
-    cout << endl;
+    char s[] = "Ana are mere";
+    strcpy(s + 1, s + 2);
+    cout << s;
+    //! Urmatorul program crapa. De ce ?
+    /*
+    strcpy(s + 3, s + 1);
+    Daca folosesti strcpy pe acelasi string primul pointer trebuie sa fie mai mic ca al doilea
+    */
 }
 
-void function9() {
-    int v[]= {1,2,3,1,2,3,5,3,5,2,5,3,5,7,4,2};
-    int n = sizeof(v) / sizeof(v[0]);
-    int f[10] = {0,0,0,0,0,0,0,0,0,0};
-    for(int i = 0 ; i < n ; i ++){
-        f[v[i]]++;
+void function9(){
+   char s[100] = "ana are mere";
+   for(int i = strlen(s) - 1; i >= 0; i --){
+        if(s[i] == 'a' || s[i] == 'e'){
+            strcpy(s + i, s + i + 1);
+        }
+   }
+   cout << s;
+}
+void function10() {
+    char str[] = "A simple, test, string";
+    const char delimiters[] = ", ";
+    char newStr[100] = "Tokens: ";
+
+    char *token = strtok(str, delimiters);
+    while (token != NULL) {
+        strcat(newStr, token);
+        strcat(newStr, " "); // Adding a space between tokens
+        token = strtok(NULL, delimiters);
     }
-    for(int i = 0 ; i < 10 ; i ++){
-        cout <<f[i]<<" ";
+
+    cout << newStr << endl;
+}
+
+void function11() {
+    char str1[] = "apple, orange, banana";
+    char str2[] = "red, green, yellow";
+    const char delimiters[] = ", ";
+    char resultStr[200] = "";
+
+    char *token1 = strtok(str1, delimiters);
+    char *token2 = strtok(str2, delimiters);
+
+    while (token1 != NULL || token2 != NULL) {
+        if (token1 != NULL) {
+            strcat(resultStr, token1);
+            strcat(resultStr, " ");
+            token1 = strtok(NULL, delimiters);
+        }
+        if (token2 != NULL) {
+            strcat(resultStr, token2);
+            strcat(resultStr, " ");
+            token2 = strtok(NULL, delimiters);
+        }
     }
+
+    cout << resultStr << endl;
+}
+
+void function12() {
+    char str[] = "apple-banana-grape-orange";
+    char destination[100] = "Fruits: ";
+    const char delimiters[] = "-"; // Token delimiter
+    const char target = 'a'; // Character to search in each token
+
+    char *token = strtok(str, delimiters);
+    while (token != NULL) {
+        char *found = strchr(token, target); // Find 'target' in the token
+        if (found != NULL) {
+            int length = found - token; // Calculate length up to the found character
+            strncat(destination, token, length); // Concatenate up to the found character
+            strcat(destination, " "); // Add a space for readability
+        }
+        token = strtok(NULL, delimiters); // Move to the next token
+    }
+
+    cout << destination << endl;
 }
 
 int main(){
     using Function = void (*)();
-    const int NR_FUNCTIONS = 10;
+    const int NR_FUNCTIONS = 13;
     Function functions[NR_FUNCTIONS] = {
         function0,
         function1,
@@ -165,6 +175,9 @@ int main(){
         function7,
         function8,
         function9,
+        function10,
+        function11,
+        function12
     };
     for(int i = 0; i < NR_FUNCTIONS; i ++){
         system("cls");

@@ -16,7 +16,7 @@ constexpr int NMAX = 100000;
 constexpr int MAX_NODES = NMAX*2 + 2;
 
 struct Edge{
-    int x;
+    int nodA;
     int cost;
 };
 struct Block
@@ -100,7 +100,7 @@ void disk()
         q.pop();
         for (auto neigh_pair : v[node])
         {
-            int neigh = neigh_pair.x;
+            int neigh = neigh_pair.nodA;
             int c = neigh_pair.cost;
             if (cost[neigh] == 0 || cost[neigh] > cost[node] + c)
             {
@@ -117,7 +117,7 @@ int main()
     for(int i  = 0; i < nodes; i ++){
         cout << i << " : ";
         for(auto e : v[i]){
-           cout <<"(" << e.x << " "<<e.cost <<") ";
+           cout <<"(" << e.nodA << " "<<e.cost <<") ";
         }
         cout <<'\n';
     }

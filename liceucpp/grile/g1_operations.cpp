@@ -44,9 +44,9 @@ void function4(){
 void function5(){
     // Nu face calculele te rog!
     int x = 1946791, y = 2746437;
-    x = x + y;              
-    y = x - y;                
-    x = x - y;                 
+    x = x + y;  
+    y = x - y; 
+    x = x - y;    
     cout << x << " " << y;
 }
 

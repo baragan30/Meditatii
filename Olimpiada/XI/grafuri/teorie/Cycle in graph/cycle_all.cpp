@@ -1,4 +1,5 @@
 /**
+ * Discover all possibles graphs
  * @brief https://codeforces.com/problemset/problem/263/D
  * support : https://www.geeksforgeeks.org/print-all-the-cycles-in-an-undirected-graph/
  * 
@@ -7,8 +8,8 @@
 
 using namespace std;
 
-// ifstream in("cycle3.in");
-// #define cin in
+ifstream in("cycle3.in");
+#define cin in
 constexpr int NMAX = 100000;
 
 enum Color{
@@ -83,7 +84,7 @@ int main(){
         if(size > k){
             cout << size << "\n";
             displayCycle(cycle);
-            break;
+            // break;
         }
     }
 }
