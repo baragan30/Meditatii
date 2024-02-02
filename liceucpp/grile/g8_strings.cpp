@@ -44,15 +44,15 @@ void function4() {
 void function5() {
     char str[] = "Find a character";
     char ch = 'a';
-    char *result = nullptr;
+    char *result = NULL;
     for (int i = 0; str[i] != '\0'; i++) {
         if (str[i] == ch) {
-            result = &str[i];
+            result = str + i;
             break;
         }
     }
     if (result) {
-        cout << result[0];
+        cout << result;
     } else {
         cout << "Character not found." << endl;
     }
@@ -137,17 +137,17 @@ void function11() {
             token2 = strtok(NULL, delimiters);
         }
     }
-
     cout << resultStr << endl;
 }
 
 void function12() {
     char str[] = "apple-banana-grape-orange";
     char destination[100] = "Fruits: ";
-    const char delimiters[] = "-"; // Token delimiter
-    const char target = 'a'; // Character to search in each token
+    char delimiters[] = "-"; // Token delimiter
+    char target = 'a'; // Character to search in each token
 
     char *token = strtok(str, delimiters);
+
     while (token != NULL) {
         char *found = strchr(token, target); // Find 'target' in the token
         if (found != NULL) {

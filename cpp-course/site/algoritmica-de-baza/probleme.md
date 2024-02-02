@@ -14,12 +14,26 @@
 - [Max And Ap](https://www.pbinfo.ro/probleme/346/maxandap)
 - [Poz Max](https://www.pbinfo.ro/probleme/282/pozmax)
 - [Verificare Ordonat](https://www.pbinfo.ro/probleme/500/verificareordonat)
-
+```cpp
+    // Hint Verificare ordonat
+    int main() {
+        int n, x1, x2;
+        cin >>n;
+        cin >> x1;
+        for(int i = 1; i <= n-1 ; i ++){
+            cin >> x2;
+            cout << x1 << " "<< x2 << endl;
+            x1 = x2;
+        }
+    }
+```
 ## Cifrele unui Număr
 - [Suma Cifrelor](https://www.pbinfo.ro/probleme/10/suma-cifrelor)
 - [Sterge Zerouri](https://www.pbinfo.ro/probleme/3932/stergezerouri)
 - [Cifra Maxima](https://www.pbinfo.ro/probleme/68/ciframaxima)
-- [Palindrom](https://www.pbinfo.ro/probleme/88/palindrom)
+- [Numarul de cifre 1](https://www.pbinfo.ro/probleme/4570/numaruldecifre1)
+- [Eliminare 0-uri](https://www.pbinfo.ro/probleme/3932/stergezerouri)
+- [Oglindit](https://www.pbinfo.ro/probleme/69/oglindit)
 - [Produs Cifre Impare](https://www.pbinfo.ro/probleme/65/produscifreimpare)
 
 ## Divizibilitate

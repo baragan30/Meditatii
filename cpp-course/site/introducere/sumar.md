@@ -142,3 +142,27 @@ In exemplu de mai jos se vor aduna numere pana se va introduce valoarea `-1`. Ap
 - Variabilele reale pot conduce la rezultate aproximative și ușor inexacte din cauza naturii lor de aproximare a numerelor.
 - Nu folosi operatorul `==` pentru a compara 2 *numere reale* `x` și `y`. Folosește în schimb `fabs(x - y) <= 0.00001` sau un alt număr foarte mic pentru comparație.
 - În structurile de control if, while, do while și for, condiția este adevărată pentru orice valoare numerică diferită de 0. `while(x)` este echivalent cu `while(x != 0)`
+
+
+## Greseli Frecvente
+### 1. Citirea a n valori
+În interiorul buclei `for`, se citește valoarea `n` din nou. Aceasta suprascrie valoarea inițială a variabilei `n`, care este folosită pentru a controla numărul de citiri. Aceasta poate duce la comportamente imprevizibile.
+
+De exemplu, dacă valorile citite sunt:
+
+5
+
+5 1 3 4 5
+
+Programul afișează pe ecran valorile `1 2` în loc de `1 2 3 4 5`.
+
+```cpp
+int main() {
+    int n;
+    cin >> n; 
+    for(int i = 1; i <= n ; i ++){
+        cin >> n;// Greșeala se află aici
+        cout << i << " ";
+    }
+}
+```
