@@ -1,4 +1,4 @@
-<h1 align="center">Sumar Capitol 2<br>Algoritmica de baza</h1>
+<h1 align="center">Sumar Capitol 3<br>Algoritmica de baza</h1>
 
 ## Generari
 

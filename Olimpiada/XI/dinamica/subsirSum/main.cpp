@@ -21,7 +21,6 @@ int main(){
                 nr[i] = max(nr[i], nr[j] + 1);
             }
         }
-
     }
     while(!q.empty()){
         cout << q.top();

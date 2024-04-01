@@ -1,0 +1,17 @@
+### Simple: 
+- [GenMat1](https://www.pbinfo.ro/probleme/206/genmat1) 
+- [SumaPare2](https://www.pbinfo.ro/probleme/767/sumapare2) 
+- [GenMat2](https://www.pbinfo.ro/probleme/207/genmat2) 
+- [GenMat4](https://www.pbinfo.ro/probleme/213/genmat4) 
+- [SumaLinii](https://www.pbinfo.ro/probleme/658/sumalinii)
+### Medii: 
+- [NrPrime](https://www.pbinfo.ro/probleme/666/nrprime) 
+- [GenMat20](https://www.pbinfo.ro/probleme/993/genmat20) 
+- [Zona4](https://www.pbinfo.ro/probleme/1749/zona4) 
+- [SumaLinii1](https://www.pbinfo.ro/probleme/659/sumalinii1) 
+- [OrdCol](https://www.pbinfo.ro/probleme/769/ordcol) 
+- [ElimLinii](https://www.pbinfo.ro/probleme/774/elimlinii) 
+- [CMMDCSum](https://www.pbinfo.ro/probleme/780/cmmdcsum)
+### Dificile: 
+- [Poza](https://www.pbinfo.ro/probleme/597/poza) 
+- [Eroziune](https://www.pbinfo.ro/probleme/594/eroziune)

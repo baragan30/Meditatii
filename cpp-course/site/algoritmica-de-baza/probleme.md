@@ -35,6 +35,7 @@
 - [Eliminare 0-uri](https://www.pbinfo.ro/probleme/3932/stergezerouri)
 - [Oglindit](https://www.pbinfo.ro/probleme/69/oglindit)
 - [Produs Cifre Impare](https://www.pbinfo.ro/probleme/65/produscifreimpare)
+- [Cifre 18](https://www.pbinfo.ro/probleme/4316/cifre18)
 
 ## Divizibilitate
 - [Suma Divizorilor Impari](https://www.pbinfo.ro/probleme/387/suma-divizorilor-impari)
@@ -47,20 +48,19 @@
 - [Suma Divizorilor Pari](https://www.pbinfo.ro/probleme/3270/suma-divizorilor-pari)
 - [Cif Max Imp](https://www.pbinfo.ro/probleme/3667/cifmaximp)
 - [Divizorii Oglinditului](https://www.pbinfo.ro/probleme/408/divizorii-oglinditului)
-- [Cifre21](https://www.pbinfo.ro/probleme/4319/cifre21)
-- [Zero Unu](https://www.pbinfo.ro/probleme/3933/zero-unu)
+- [Prime3](https://www.pbinfo.ro/probleme/3351/prime3)
 - [Divizori7](https://www.pbinfo.ro/probleme/4330/divizori7)
 - [Cub Perfect](https://www.pbinfo.ro/probleme/2695/cub-perfect)
-- [Prime Intre Ele](https://www.pbinfo.ro/probleme/60/primeintreele)
-- [Para1](https://www.pbinfo.ro/probleme/4274/para1)
-- [Prime3](https://www.pbinfo.ro/probleme/3351/prime3)
+- [Cifre21](https://www.pbinfo.ro/probleme/4319/cifre21)
+- [Zero Unu](https://www.pbinfo.ro/probleme/3933/zero-unu)
 - [P10-10](https://www.pbinfo.ro/probleme/2222/p10-10)
+- [Para1](https://www.pbinfo.ro/probleme/4274/para1)
 
 ## Probleme Dificile
 
 ### 1. Număr Prim de Numere Palindrom
 
-Se citește un număr `n` urmat de `n` numere introduse de la tastatură. Obiectivul este de a determina dacă numărul total de numere palindrom din această secvență este un număr prim.
+Se citește un număr `n` urmat de `n` numere introduse de la tastatură. Sa se determine dacă numărul total de numere palindrom din această secvență este un număr prim.
 
 Programul va afisa mesajul `DA` pe ecran daca exista un numar par de numere palindrom si mesajul `NU` in caz contrar.
 - Input 1:
@@ -80,15 +80,25 @@ Programul va afisa mesajul `DA` pe ecran daca exista un numar par de numere pali
 
 ### 2. Calculul Fitozitatii
 
-Fitozitatea unui numar se calculeaza adunand cifrele sale de pe pozitiile impare si scazand cifrele de pe pozitii pare. Fitozitatea unui numar poate fi negativa. Se citeste un numar `n` si apoi `n` numere de la tastatura, urmand a se determina cele mai fitoase si mai putin fitoase numere din serie.
+Fitozitatea unui numar se calculeaza adunand cifrele sale de pe pozitiile impare si scazand cifrele de pe pozitii pare. Fitozitatea unui numar poate fi negativa.
+De exemplu fitozitatea numarului 93674 este 4 - 7 + 6 - 3 + 9 = 9
+Se citeste un numar `n` si apoi `n` numere de la tastatura, urmand a se determina cele mai fitoase si mai putin fitoase numere din serie.
 
 Input 1:
 ```cpp
 3
-121, 50, 13
+121 50 13
 ```
 
 Output 1: `50 13` (Fitozitatile numerelor sunt: 0 -5 2. 50 are cea mai mica fitozitate iar 13 cea mai mare.)
+
+Input 2:
+```cpp
+6
+3849 121 9473 351 13 34
+```
+
+Output 2: `351 3849` (Fitozitatile numerelor sunt: 16 0 9 -1 2 1)
 
 ### 3. [Suma Divizorilor](https://www.pbinfo.ro/probleme/4296/sumdiv)
 

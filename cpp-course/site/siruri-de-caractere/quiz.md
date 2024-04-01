@@ -8,10 +8,12 @@ int main(){
     return 0;
 }
 ```
-<button onclick="toggleAnswer('answer1')" class="show-answer">Show Answer</button>
-<div id="answer1" class="answer" style="display:none">
-    5
-</div>
+%%%
+5
+
+---
+str + 4 pointeaza catre "56789"
+%%%
 
 ### 2.
 ```cpp
@@ -23,10 +25,12 @@ int main(){
         return 0;
     }
 ```
-<button onclick="toggleAnswer('answer2')" class="show-answer">Show Answer</button>
-<div id="answer2" class="answer" style="display:none">
-    123cdefg
-</div>
+%%%
+123cdefg
+
+---
+strcpy pune '\0' peste 9 automat. De aceea nu apare si 9.
+%%%
 
 ### 3.
 ```cpp
@@ -39,10 +43,12 @@ int main(){
     return 0;
 }
 ```
-<button onclick="toggleAnswer('answer3')" class="show-answer">Show Answer</button>
-<div id="answer3" class="answer" style="display:none">
-    1cdefg78
-</div>
+%%%
+1cdefg78
+
+---
+strncpy nu pute automat '\0'. El este pus aici `destination[8] = '\0'`
+%%%
 
 ### 4.
 ```cpp
@@ -55,10 +61,9 @@ int main(){
     return 0;
 }
 ```
-<button onclick="toggleAnswer('answer4')" class="show-answer">Show Answer</button>
-<div id="answer4" class="answer" style="display:none">
-    0 1 -1 1 -1
-</div>
+%%%
+0 1 -1 1 -1
+%%%
 
 
 ### 5.
@@ -72,12 +77,11 @@ int main(){
     return 0;
 }
 ```
-<button onclick="toggleAnswer('answer5')" class="show-answer">Show Answer</button>
-<div id="answer5" class="answer" style="display:none">
+%%%
 a3a
 
 3
-</div>
+%%%
 
 
 ### 6.
@@ -100,10 +104,9 @@ int main(){
     return 0;
 }
 ```
-<button onclick="toggleAnswer('answer6')" class="show-answer">Show Answer</button>
-<div id="answer6" class="answer" style="display:none">
-    a character
-</div>
+%%%
+a character
+%%%
 
 
 ### 7.
@@ -120,10 +123,9 @@ int main(){
     return 0;
 }
 ```
-<button onclick="toggleAnswer('answer7')" class="show-answer">Show Answer</button>
-<div id="answer7" class="answer" style="display:none">
+%%%
 Substring found: mple, simple string
-</div>
+%%%
 
 
 ### 8.
@@ -137,13 +139,12 @@ int main(){
     return 0;
 }
 ```
-<button onclick="toggleAnswer('answer8')" class="show-answer">Show Answer</button>
-<div id="answer8" class="answer" style="display:none">
+%%%
 Aa are mere
 
 ---
 Linia strcpy(s + 3, s + 1); provoacă erori pentru că mută date dintr-o zonă a șirului s într-o altă zonă care se suprapune peste prima. Daca folosesti strcpy pe acelasi string primul pointer trebuie sa fie mai mic ca al doilea
-</div>
+%%%
 
 ### 9.
 ```cpp
@@ -155,13 +156,12 @@ int main(){
         }
    }
    cout << s;
-    return 0;
+   return 0;
 }
 ```
-<button onclick="toggleAnswer('answer9')" class="show-answer">Show Answer</button>
-<div id="answer9" class="answer" style="display:none">
-    n r mr
-</div>
+%%%
+n r mr
+%%%
 
 ### 10.
 ```cpp
@@ -181,10 +181,9 @@ int main(){
     return 0;
 }
 ```
-<button onclick="toggleAnswer('answer10')" class="show-answer">Show Answer</button>
-<div id="answer10" class="answer" style="display:none">
+%%%
 Tokens: A simple test string
-</div>
+%%%
 
 ### 11.
 ```cpp
@@ -203,13 +202,9 @@ int main(){
     return 0;
 }
 ```
-<button onclick="toggleAnswer('answer11')" class="show-answer">Show Answer</button>
-<div id="answer11" class="answer" style="display:none">
-apple
-orange
-red
-green
-</div>
+%%%
+apple orange red green
+%%%
 
 ### 12.
 ```cpp
@@ -238,10 +233,9 @@ int main(){
     return 0;
 }
 ```
-<button onclick="toggleAnswer('answer12')" class="show-answer">Show Answer</button>
-<div id="answer12" class="answer" style="display:none">
+%%%
 apple red green yellow
-</div>
+%%%
 
 
 ### 13.
@@ -267,9 +261,8 @@ int main(){
     return 0;
 }
 ```
-<button onclick="toggleAnswer('answer13')" class="show-answer">Show Answer</button>
-<div id="answer13" class="answer" style="display:none">
+%%%
 Fruits:  b gr or
-</div>
+%%%
 
 

@@ -13,7 +13,7 @@ const int NMAX = 100001;
 //nod, cost to nod
 vector<pair <int, int> >v[NMAX];
 int cost[NMAX];
-bool masca[NMAX];
+bool isInQueue[NMAX];
 
 struct compara
 {
@@ -31,29 +31,46 @@ void reading(){
         int x, y, c;
         in>> x >> y >> c;
         v[x].push_back(make_pair(y,c));
-        
     }
     
 }
 
-void Dijkstra(int startNode){
-    q.push(startNode);
+// void Dijkstra(int startNode){
+//     q.push(startNode);
+//     while(!q.empty()){
+//         int nod = q.top();
+//         q.pop();
+//         masca[nod] = false;
+//         for (auto neigh_pair : v[nod]){
+//             int neigh = neigh_pair.first;
+//             int c = neigh_pair.second;
+
+//             if(cost[neigh] == 0){
+//                 cost[neigh] = cost[nod] + c;
+//                 if(!masca[neigh]){
+//                     masca[neigh] = true;
+//                     q.push(neigh);
+//                 }
+//             }
+//         }
+//     }
+// }
+
+void Dijkstra(int start){
+    for(int i = 1; i <= n ; i ++)
+        cost[i] = -1;
+
+    q.push(start);
+    cost[start] = 0;
     while(!q.empty()){
         int nod = q.top();
         q.pop();
-        masca[nod] = false;
-
-        for (auto neigh_pair : v[nod]){
+        for(pair<int , int> neigh_pair : v[nod]){
             int neigh = neigh_pair.first;
             int c = neigh_pair.second;
-
-            if(cost[neigh] == 0){
+            if(cost[neigh] == -1){
                 cost[neigh] = cost[nod] + c;
-
-                if(!masca[neigh]){
-                    masca[neigh] = true;
-                    q.push(neigh);
-                }
+                q.push(neigh);
             }
         }
     }
@@ -69,5 +86,8 @@ void output(){
 int main(){
     reading();
     Dijkstra(1);
+    for(int i = 1; i <= n ; i ++){
+        cout << cost[i] << " ";
+    }
     output();
 }

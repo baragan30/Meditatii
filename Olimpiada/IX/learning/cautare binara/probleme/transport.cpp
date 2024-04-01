@@ -22,6 +22,20 @@ bool testCapacity(int v[],const int maxCapacity){
     return true;
 }
 
+
+bool getTransports(int capacity){
+    int transportsNo = 1;
+    int sum = 0;
+    for(int i = 0; i < n ; i ++){
+        sum += v[i];
+        if(sum > capacity){
+            sum = v[i];
+            transportsNo++;
+        }
+    }
+    return transportsNo;
+}
+
 int main(){
     in >> n >> k;
     int v[n];

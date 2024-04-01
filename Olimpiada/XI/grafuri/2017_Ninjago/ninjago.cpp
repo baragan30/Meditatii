@@ -1,6 +1,6 @@
 /**
  * @brief https://www.infoarena.ro/problema/ninjago
- *  Complex Dijkstra with 2 cost eges
+ *  Complex Kruskal with 2 cost eges
  */
 #include <bits/stdc++.h>
 

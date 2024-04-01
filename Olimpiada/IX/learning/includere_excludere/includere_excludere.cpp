@@ -55,15 +55,39 @@ long long getSol(long long A, long long v[], int n){
 }
 int main()
 {  
-    long long v[MAX_DIVIDERS], A = 10,B = 5;
-    int n, m;
-    in >> m;
-
-    for(int i = 0 ; i < m ; i ++){
-        in >> A >> B;
-        descompunere(v,n,B);
-        // display(v,n);
-        out <<A - getSol(A,v,n) << '\n';   
+    char cuvinte[10][11];
+    int n;
+    cin >> n;
+    for(int i = 0; i < n ; i ++){
+        cin >> cuvinte[i];
     }
+    char prop[10][11];
+    int nr = 0;
+    char s[100];
+    cin.getline(s, 100);
+
+    char *p = strtok(s, " ");
+    while(p){
+        strcpy(prop[nr], p);
+        nr++;
+        p = strtok(NULL, " ");
+    }
+
+    for(int i = 0 ; i < nr; i ++){
+        if(strchr(prop[i], '*')){
+            for(int j = 0 ; j < n ; j ++){
+                if(strlen(prop[i]) == strlen(cuvinte[j])){
+                    strcpy(prop[i], cuvinte[j]);
+                    break;
+                }
+            }
+        }
+    }
+    strcpy(s, "");
+    for(int i = 0 ; i < nr ; i ++){
+        strcat(s, prop[i]);
+        strcat(s, " ");
+    }
+
     return 0;
 }

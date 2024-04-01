@@ -22,25 +22,13 @@ void exempleImplementate(){
     cout << p1<<" "<<p2 << " " <<p3 << " "<<p4<< " "<<p5;
 }
 
-//Cautare binara dupa ultimul element <= x
-int upperBound(int v[], int n, int x)
-{
-    //1,3,3,3,5
-    //mid = left
-    //right = left + 1
-    int left = 0, right = n;
-    while(left < right){
-        int mid = (left + right)/2;
-        if(x >= v[mid]){
-            left = mid + 1;
-        }else{
-            right = mid;
-        }
-    }
-    return left - 1;
-}
 //Cautare binara dupa primul element >= x
 int lowerBound(int v[], int n, int x){
+
+}
+
+//Cautare binara dupa primul element > x
+int upperBound(int v[], int n, int x){
 
 }
 
@@ -64,9 +52,6 @@ int upperBound(Function f, long long x){
 
 }
 
-
-
 int main(){
-    int v[] = {1,3,3,3,5};
-    cout << upperBound(v,5,100);
+    exempleImplementate();
 }

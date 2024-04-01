@@ -1,2 +1,1 @@
-    // strcat(p," o vaca");
-    // cout << p;
+ sort(v, v + n);

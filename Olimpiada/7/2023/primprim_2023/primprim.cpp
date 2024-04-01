@@ -64,7 +64,7 @@ int getCost(int x){
     return cost[x];
 }
 
-bool compara(int index1, int index2){
+bool descrescator(int index1, int index2){
     return getCost(v[index1]) < getCost(v[index2]);
 }
 int findIndex(int i){
@@ -127,7 +127,7 @@ int main(){
         for(int i = 0; i < n; i++){
             index[i] = i;
         }
-        std::sort(index, index + n, compara);
+        std::sort(index, index + n, descrescator);
 
         // display();
 

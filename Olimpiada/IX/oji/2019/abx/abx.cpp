@@ -72,7 +72,7 @@ ll solve(ll x, ll exp){
 ll solve(ll x){
     ll sol = 1;
     for(int exp = 2; exp <= 62; exp++){
-        ll sol2 = solve(x,exp);
+        ll sol2 = solve(x, exp);
         sol = selectBest(x,sol,sol2);
         if(sol == x)
             break;

@@ -25,7 +25,7 @@ int countDigits(int n) {
     int count = 0;
     while (n != 0) {
         count++;
-        n /= 10;
+        n /= 10;//n = n / 10;
     }
     return count;
 }
@@ -36,7 +36,7 @@ void function2() {
 int factorial(int n) {
     int prod = 1;
     for(int i = 2; i <= n ; i ++)
-        prod *= i;
+        prod *= i;// prod = prod * i;
     return prod;
 }
 void function3() {
@@ -49,6 +49,9 @@ bool isPrime(int num) {
     }
     return true;
 }
+
+
+
 void increase1(int n){
     n++;
 }
@@ -79,7 +82,6 @@ void function6() {
     change(x,y);
     cout << x << " "<< y;
 }
-
 int f1(int &y, int x)
  {
     y=y/10+x;

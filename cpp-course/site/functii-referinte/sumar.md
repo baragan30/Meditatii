@@ -18,7 +18,6 @@
 ### Exemplu 1 : cresterea unei variabile
 
 ```cpp
-// functia primeste 2 numere intregi a si b si ne returneaza suma lor sub forma unui intreg
 int increase(int a) {
     a = a + 1;
     return a;
@@ -76,10 +75,12 @@ bool isPrim(int x) {
 Variabilele de referință tin minte unde in memorie se afla alte variabile si sunt utile pentru a modifica variabile transmise ca parametru in functii.
 ### Exemplu 1
   ```cpp
+int main(){
     int val = 5;
     int &referintaVal = val;// referinta catre variabila val
     referintaVal = 6;Wx``
     cout << val; // afiseaza 6
+}
   ```
 ### Exemplu 2 : interschimbarea a doua variabile
 ```cpp

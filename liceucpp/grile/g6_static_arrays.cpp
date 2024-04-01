@@ -34,7 +34,7 @@ void function1() {
 }
 
 void function2() {
-    int arr[] = {12,768,23,900,300,244,588};
+    int arr[] = {12, 768, 23, 900, 300, 244, 588};
     int n = sizeof(arr)/sizeof(int); //n=7
     int left = 0, right = n - 1;
     while (left < right) {
@@ -99,6 +99,7 @@ void function5() {
 void function6() {
 
     int arr[] = {2,6,2,7,3,4,2,7};
+    //2 2 2 7 6 4 3
     int n = sizeof(arr)/sizeof(int);
     for (int i = 0; i < n - 1; i++) {     
         for (int j = i + 1; j < n; j++) {
@@ -117,7 +118,7 @@ void function6() {
 
 void function7() {
     int arr[] = {6,5,1,5,0,3};
-    int n = sizeof(arr)/sizeof(int);
+    int n = sizeof(arr)/sizeof(int);//n = 6
     for (int i = 0; i < n - 1; i++) {
         int j = i + 1;
         int x = arr[j];
@@ -151,7 +152,7 @@ void function8() {
 }
 
 void function9() {
-    int v[]= {1,2,3,1,2,3,5,3,5,2,5,3,5,7,4,2};
+    int v[]= {0,1,2,3,1,2,3,5,3,5,2,5,3,5,7,4,2};
     int n = sizeof(v) / sizeof(v[0]);
     int f[10] = {0,0,0,0,0,0,0,0,0,0};
     for(int i = 0 ; i < n ; i ++){

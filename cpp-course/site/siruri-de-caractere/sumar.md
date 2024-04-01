@@ -161,16 +161,12 @@
 
     // Continuăm să obținem următoarele tokenuri
     while (token != NULL) {
-        cout << token << '\n'; // Afișează tokenul curent
+        cout << token << ' '; // Afișează tokenul curent
         // Apelează strtok cu NULL pentru a continua descompunerea aceluiași șir
         token = strtok(NULL, delim);
     }
-
     /* Output-ul va fi:
-    Acesta
-    este
-    un
-    exemplu
+      Acesta este un exemplu
     */
 
     return 0;

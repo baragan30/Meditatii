@@ -73,18 +73,10 @@ void displayCycle(Cycle & cycle){
 }
 
 int main(){
-    read();
-    for(int i = 1; i <=n ; i ++){
-        if(visited[i] == WHITE){
-            dfs(i);
-        }
-    }
-    for(auto cycle : cycles){
-        int size = cycle.size;
-        if(size > k){
-            cout << size << "\n";
-            displayCycle(cycle);
-            // break;
+    int x = 2733;
+    for(int i = 2; i <= x; i ++){
+        if(x % i == 0){
+            cout << i << " ";
         }
     }
 }
